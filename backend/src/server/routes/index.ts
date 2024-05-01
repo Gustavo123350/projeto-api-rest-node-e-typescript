@@ -8,7 +8,7 @@ router.get('/',(_,res)=>{
 });
 
 router.post('/teste',(req,res)=>{
-  console.log(req.query.teste);
+ 
 
   return res.status(StatusCodes.UNAUTHORIZED).json(req.body);
 });
