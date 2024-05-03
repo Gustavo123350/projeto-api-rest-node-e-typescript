@@ -35,6 +35,7 @@ export default {
       "error",
       "always"
     ],
+    "@typescript-eslint/ban-types": "off",
     "@typescript-eslint/no-empty-interface": "off"
   },
   languageOptions: {
